@@ -1,23 +1,21 @@
-
-# Forms4TV, Forms For youTube Videos (Formularios para videos de youTube en español)
-
-Forms4TV es una extensión de navegador que facilita la visualización y análisis de datos en tiempo real para creadores de contenido en YouTube.
+# Forms4TV
+Forms4TV (Forms For youTube Videos) es una extensión de navegador que facilita la visualización y análisis de datos en tiempo real para creadores de contenido en YouTube.
 
 ## Estructura de carpetas
-El proyecto está dividido en dos partes principales: frontend y backend. 
 
+```
 Forms4TV/
-├── frontend/
-└── backend/
+  ├── frontend/
+  └── backend/
+```
 
-El frontend es la extensión del navegador desarrollada con Plasmo, Node.js y React, mientras que el backend utiliza Node.js, Express y MongoDB para el almacenamiento de datos y la gestión de la API.
+El proyecto está dividido en dos partes principales: frontend y backend. 
+El frontend es la extensión del navegador desarrollada en el framework Plasmo, mientras que el backend utiliza Node.js, Express y MongoDB para el almacenamiento de datos y la gestión de la API.
 
 ## Tecnologías utilizadas
 
 - Frontend:
-  - Plasmo (framework de desarrollo de extensiones de navegador)
-  - Node.js
-  - React
+  - Plasmo 
 
 - Backend:
   - Node.js
@@ -31,10 +29,9 @@ El frontend es la extensión del navegador desarrollada con Plasmo, Node.js y Re
 
 ## Contacto
 
-Este proyecto se realiza como parte del Trabajo Fin de Grado de Ingenería del Software de Aureliano Piqueras Rodríguez (aurpiqrod@us.es)
-
+Este proyecto se realiza como parte del Trabajo Fin de Grado de Ingenería del Software de Aureliano Piqueras Rodríguez (aurpiqrod@us.es).
 Si tienes alguna pregunta o necesitas más información sobre el proyecto Forms4TV, no dudes en ponerte en contacto conmigo.
 
-
 Tutor del TFG: José Antonio Parejo
+
 Escuela Técnica Superior de Ingeniería Informática - Universidad de Sevilla
