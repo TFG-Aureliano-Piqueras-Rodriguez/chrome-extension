@@ -1,5 +1,5 @@
 {
-  "name": "server",
+  "name": "forms4tv-backend",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
     "format": "prettier --single-quote --check .",
-    "prepare": "cd ../ && husky install server/.husky",
+    "prepare": "cd ../ && husky install backend/.husky",
     "dev": "nodemon --experimental-modules index.mjs"
   },
   "dependencies": {
