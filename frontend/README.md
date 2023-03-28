@@ -1,24 +1,22 @@
-This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
+# Frontend de Forms4TV
 
-## Getting Started
+Este es el frontend para la extensión Forms4TV. Está construido con Plasmo, Node.js y React.
 
-First, run the development server:
+## Requisitos
+
+- Node.js
+- pnpm (recomendado) o npm
+
+## Ejecutar el servidor de desarrollo
 
 ```bash
 pnpm dev
 # or
 npm run dev
 ```
+Abre tu navegador y carga la versión de desarrollo adecuada. Por ejemplo, si estás desarrollando para el navegador Chrome, usando el manifiesto v3, usa: build/chrome-mv3-dev.
 
-Open your browser and load the appropriate development build. For example, if you are developing for the chrome browser, using manifest v3, use: `build/chrome-mv3-dev`.
-
-You can start editing the popup by modifying `popup.tsx`. It should auto-update as you make changes. To add an options page, simply add a `options.tsx` file to the root of the project, with a react component default exported. Likewise to add a content page, add a `content.ts` file to the root of the project, importing some module and do some logic, then reload the extension on your browser.
-
-For further guidance, [visit our Documentation](https://docs.plasmo.com/)
-
-## Making production build
-
-Run the following:
+## Compilación para producción
 
 ```bash
 pnpm build
@@ -26,8 +24,4 @@ pnpm build
 npm run build
 ```
 
-This should create a production bundle for your extension, ready to be zipped and published to the stores.
-
-## Submit to the webstores
-
-The easiest way to deploy your Plasmo extension is to use the built-in [bpp](https://bpp.browser.market) GitHub action. Prior to using this action however, make sure to build your extension and upload the first version to the store to establish the basic credentials. Then, simply follow [this setup instruction](https://docs.plasmo.com/framework/workflows/submit) and you should be on your way for automated submission!
+Esto debería crear un paquete de producción para tu extensión, listo para ser comprimido y publicado en las tiendas.
