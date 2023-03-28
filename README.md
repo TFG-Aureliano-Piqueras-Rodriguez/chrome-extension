@@ -29,7 +29,7 @@ El frontend es la extensión del navegador desarrollada en el framework Plasmo, 
 
 ## Contacto
 
-Este proyecto se realiza como parte del Trabajo Fin de Grado de Ingenería del Software de Aureliano Piqueras Rodríguez (aurpiqrod@us.es).
+Este proyecto se realiza como parte del Trabajo Fin de Grado de Ingenería del Software de Aureliano Piqueras Rodríguez (aurpiqrod@alum.us.es).
 Si tienes alguna pregunta o necesitas más información sobre el proyecto Forms4TV, no dudes en ponerte en contacto conmigo.
 
 Tutor del TFG: José Antonio Parejo
