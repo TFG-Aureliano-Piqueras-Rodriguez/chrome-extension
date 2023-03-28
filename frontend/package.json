@@ -1,9 +1,9 @@
 {
-  "name": "forms4-tv",
-  "displayName": "Forms4 tv",
+  "name": "frontend",
+  "displayName": "Frontend",
   "version": "0.0.1",
-  "description": "Forms Extension for youTube Videos",
-  "author": "aurpiqrod@alum.us.es",
+  "description": "Frontend for Forms4TV",
+  "author": "aurpiqrod",
   "scripts": {
     "dev": "plasmo dev",
     "build": "plasmo build",
