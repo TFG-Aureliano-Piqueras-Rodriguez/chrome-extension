@@ -1,0 +1,45 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/frontend/node_modules
+/frontend/.pnp
+/frontend/.pnp.js
+/backend/node_modules
+/backend/.pnp
+/backend/.pnp.js
+
+
+# testing
+/frontend/coverage
+/backend/coverage
+
+#cache
+/frontend/.turbo
+/frontend/.next
+/frontend/.vercel
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+/frontend/.env*
+/frontend/out/
+/frontend/build/
+/frontend/dist/
+/backend/.env*
+
+# plasmo - https://www.plasmo.com
+/frontend/.plasmo
+
+# bpp - http://bpp.browser.market/
+/frontend/keys.json
+
+# typescript
+/frontend/.tsbuildinfo
