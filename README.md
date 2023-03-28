@@ -1,23 +1,39 @@
-# YouTube Chrome Extension (nombre provisional)
-## Version 0 (v0 en adelante)
+# Forms4TV
 
-Este es el repositorio del TFG de Aureliano Piqueras Rodríguez
-Se desarrollará una extensión para Chrome que extenderá funcionalidades a la web de Youtube.
-Esta v0 no implementa ninguna funcionalidad, es un "Hola mundo".
+Forms4TV es una extensión de navegador que facilita la visualización y análisis de datos en tiempo real para creadores de contenido en YouTube.
 
-## Instalación
-Descarga o clona este repositorio.
-Abre Google Chrome y ve a la página chrome://extensions/.
-Habilita el modo desarrollador en la parte superior derecha de la página.
-Haz clic en "Cargar descomprimida" y selecciona la carpeta donde se encuentra la extensión descargada.
+## Estructura de carpetas
+El proyecto está dividido en dos partes principales: frontend y backend. 
 
-## Uso (v0)
-Una vez instalada la extensión, abre una video de YouTube que contenga "https://www.youtube.com/watch" en su URL. 
-Verás que justo debajo del video en reproducción aparece un div con el texto "Hola mundo" de color rojo.
+Forms4TV/
+├── frontend/
+└── backend/
 
-## Cómo funciona (v0)
-La extensión utiliza la API MutationObserver de JavaScript para detectar cuándo se añade el elemento #above-the-fold al DOM. Este elemento se encuentra debajo del contenedor del video en reproducción. Una vez detectado este elemento, se añade un div con el texto "Hola mundo" en él. Se utilizan los estilos de YouTube para que el div se integre perfectamente en la página, aunque se ha rellenado de rojo para que resalte.
+El frontend es la extensión del navegador desarrollada con Plasmo, Node.js y React, mientras que el backend utiliza Node.js, Express y MongoDB para el almacenamiento de datos y la gestión de la API.
+
+## Tecnologías utilizadas
+
+- Frontend:
+  - Plasmo (framework de desarrollo de extensiones de navegador)
+  - Node.js
+  - React
+
+- Backend:
+  - Node.js
+  - Express
+  - MongoDB
+
+## Configuración del entorno de desarrollo
+
+1. Clona el repositorio en tu computadora local.
+2. Navega a las carpetas `frontend` y `backend` y sigue las instrucciones específicas de cada uno para instalar las dependencias y configurar el entorno de desarrollo.
+
+## Contacto
+
+Este proyecto se realiza como parte del Trabajo Fin de Grado de Ingenería del Software de Aureliano Piqueras Rodríguez (aurpiqrod@us.es)
+
+Si tienes alguna pregunta o necesitas más información sobre el proyecto Forms4TV, no dudes en ponerte en contacto conmigo.
 
 
-Tutor: José Antonio Parejo
+Tutor del TFG: José Antonio Parejo
 Escuela Técnica Superior de Ingeniería Informática - Universidad de Sevilla
