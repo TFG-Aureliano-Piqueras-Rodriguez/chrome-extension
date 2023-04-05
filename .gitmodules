@@ -1,6 +1,0 @@
-[submodule "forms4tv-frontend-plasmo"]
-	path = forms4tv-frontend-plasmo
-	url = https://github.com/TFG-Aureliano-Piqueras-Rodriguez/forms4tv-frontend-plasmo.git
-[submodule "forms4tv-backend-appengine"]
-	path = forms4tv-backend-appengine
-	url = https://github.com/TFG-Aureliano-Piqueras-Rodriguez/forms4tv-backend-appengine.git
