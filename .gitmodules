@@ -1,3 +1,6 @@
+[submodule "forms4tv-frontend"]
+	path = forms4tv-frontend
+	url = https://github.com/TFG-Aureliano-Piqueras-Rodriguez/forms4tv-frontend.git
 [submodule "forms4tv-backend"]
 	path = forms4tv-backend
 	url = https://github.com/TFG-Aureliano-Piqueras-Rodriguez/forms4tv-backend.git
